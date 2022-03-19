@@ -81,8 +81,9 @@ const Form = () => {
             <span className="timer-icon">
               <i className="far fa-clock"></i>
             </span>
-            <h2>Countdown Timer</h2>
-            <p>Name</p>
+            <h2>Countdown To:</h2>
+            <h2>{name}</h2>
+            {/* <h1>Countdown To: {name}</h1> */}
           </div>
           <div className="countdown-container">
             <section>
